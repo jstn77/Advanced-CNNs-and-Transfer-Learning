@@ -1,0 +1,34 @@
+{
+    "seed": 42,
+    "dataset": "Oxford-IIIT Pet (trainval + official test combined, then internal stratified split)",
+    "selected_image_count": 1997,
+    "num_classes": 10,
+    "classes": [
+        "Abyssinian",
+        "Bengal",
+        "Birman",
+        "British Shorthair",
+        "Persian",
+        "american bulldog",
+        "american pit bull terrier",
+        "basset hound",
+        "beagle",
+        "boxer"
+    ],
+    "split": {
+        "train": 0.7,
+        "validation": 0.15,
+        "test": 0.15
+    },
+    "input_size": "224x224",
+    "batch_size": 32,
+    "optimizer": "AdamW",
+    "loss": "CrossEntropyLoss",
+    "early_stopping_patience": 4,
+    "architectures_evaluated": [
+        "ResNet-18",
+        "MobileNetV3-Small"
+    ],
+    "resnet_pretrained_weights": "ResNet18_Weights.IMAGENET1K_V1",
+    "mobilenet_pretrained_weights": "MobileNet_V3_Small_Weights.IMAGENET1K_V1"
+}
