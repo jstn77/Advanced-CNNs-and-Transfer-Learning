@@ -21,8 +21,8 @@ Python, PyTorch, Torchvision, NumPy, Pandas, Matplotlib, scikit-learn, and Pillo
 3. Run the notebook cells in order.
 
 ## Files
-- `.ipynb` — Experiment code and outputs
-- `.pdf` — Technical report
+- `.ipynb` => Experiment code and outputs
+- `.pdf` => Technical report
 - `raw_training_epoch_logs.csv` => Training metrics recorded per epoch
 - `raw_metrics.csv` => All metrics from B1 - B5
 
